@@ -1,8 +1,9 @@
 To start this project run the below comands in their mentioned order:
 
-1. python manage.py makemigrations
-2. python manage.py migrate
-3. python manage.py runcrons vivproapi.dashboard.cron.MyCronJob --force
-4. python manage.py createsuperuser --username admin --email devesh.gupta.198@gmail.com
-5. python manage.py runserver
+1. pip install -r requirements.txt
+2. python manage.py makemigrations
+3. python manage.py migrate
+4. python manage.py runcrons vivproapi.dashboard.cron.MyCronJob --force
+5. python manage.py createsuperuser --username admin --email devesh.gupta.198@gmail.com
+6. python manage.py runserver
 Visit: http://127.0.0.1:8000/admin/
