@@ -1,5 +1,10 @@
 To start this project run the below comands in their mentioned order:
 
+Create virtual environment and activate:
+1. python -m venv vivpro
+2. source env/bin/activate
+
+Then:
 1. pip install -r requirements.txt
 2. python manage.py makemigrations
 3. python manage.py migrate
