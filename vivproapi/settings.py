@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-yose31=$yvv&e^6&n#rqk6%#qgx45!rez8t!-1j)3qc4=!*j79
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ["demobackend-q62d.onrender.com", '127.0.0.1', 'localhost']
 
 LOGIN_REDIRECT_URL = '/'
 
